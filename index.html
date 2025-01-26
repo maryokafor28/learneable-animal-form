@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="adoption-form">
+         <h1>ANIMAL ADOPTION APPLICATION FORM</h1>
+   
+    <form action="#" method="get" id="form">
+
+     
+        <div class="input-box">
+            <p>Your full name</p>
+            <input type="text" id="First-name" placeholder=" Name" required>
+
+        </div>
+        <div class="input-box">
+            <p>Email address</p>
+            <input type="email"  id="user_email" placeholder="Enter your email"  required >
+        </div>
+
+        <div>  
+            <p>Select the type of Animal you wish to adopt</p>
+           <select name="types"  id="types"  required > 
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Rabbit">Rabbit</option>
+            <option value="Turtle">Turtle</option>
+            <option value="Pig">Pig</option>
+            <option value="Squirel">Squirel</option>
+            <option value="Others">Others</option>
+        </select>
+       </div>
+
+        <div class="input-box">
+            <p>If others, please specify</p>
+            <input type="text" id="others" placeholder="Others" required>
+        </div>
+
+        <div class="input-box">
+            <p>Number of Animal(s) to be adopted </p>
+            <input type="number" id="Number" placeholder="Number"required >
+         </div>
+
+         <div>
+            <p>Why do you want to adopt the Animal?</p>
+             <textarea name="comment" id="box" cols="70" rows="10"></textarea>
+        </div>
+
+        <div>
+            <button type="submit" class="btn">Submit</button>
+         </div>
+    </div>
+</body>
+</html>
