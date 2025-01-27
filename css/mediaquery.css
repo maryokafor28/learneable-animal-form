@@ -1,4 +1,11 @@
 @media (max-width: 663px) {
+  body {
+    background-color: peachpuff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .adoption-form {
     max-width: 500px;
     width: 450px;
@@ -26,8 +33,18 @@
     border-bottom-width: 3px;
   }
   #types {
-    height: 44px;
     width: 420px;
+  }
+  #box {
+    width: 420px;
+  }
+
+  button {
+    width: 420px;
+    padding: 5px 50px;
+    background: rgb(228, 73, 17);
+    font-size: large;
+    margin-top: 15px;
     border-radius: 10px;
   }
 }
