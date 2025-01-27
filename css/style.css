@@ -17,7 +17,7 @@ body {
   width: 100%;
   background: rgba(255, 127, 80, 0.514);
   padding: 25px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .adoption-form h1 {
