@@ -2,10 +2,6 @@
   body {
     width: 500px;
     background-color: peachpuff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .adoption-form {
     width: 400px;
