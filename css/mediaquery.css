@@ -1,4 +1,10 @@
 @media (max-width: 663px) {
+  .adoption-form {
+    width: 400px;
+    background: rgba(255, 127, 80, 0.301);
+    padding: 20px 25px;
+    border-radius: 10px;
+  }
   .adoption-form h1 {
     width: 380px;
     margin-top: 100px;
