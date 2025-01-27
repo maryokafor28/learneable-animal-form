@@ -1,9 +1,10 @@
 @media (max-width: 663px) {
   .adoption-form {
     max-width: 500px;
+    width: 450px;
     background: rgba(255, 127, 80, 0.514);
     padding: 5px 10px;
-    height: 100vh;
+    /* height: 100vh; */
     border-radius: 10px;
   }
 
@@ -17,11 +18,16 @@
   }
 
   .input-box input {
-    width: 450px;
+    width: 400px;
     border-radius: 10px;
     border: 1px solid;
     padding: 0 10px 0 10px;
     font-size: 16px;
     border-bottom-width: 3px;
+  }
+  #types {
+    height: 44px;
+    width: 420px;
+    border-radius: 10px;
   }
 }
