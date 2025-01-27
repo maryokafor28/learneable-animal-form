@@ -14,7 +14,7 @@
   }
 
   .input-box input {
-    width: 370px;
+    width: 360px;
     border-radius: 10px;
     border: 1px solid;
     font-size: 16px;
@@ -26,12 +26,18 @@
 
   #types {
     height: 44px;
-    width: 370px;
+    width: 360px;
     margin: 0 18px;
   }
 
   #box {
     margin: 0 18px;
+    width: 360px;
+  }
+
+  button {
     width: 370px;
+    margin: 0 18px;
+    margin-top: 18px;
   }
 }
