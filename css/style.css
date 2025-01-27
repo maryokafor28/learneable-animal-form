@@ -5,6 +5,7 @@
 }
 
 body {
+  width: 100%;
   background-color: peachpuff;
   height: 100vh;
   display: flex;

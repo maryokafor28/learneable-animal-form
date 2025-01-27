@@ -1,4 +1,12 @@
 @media (max-width: 663px) {
+  body {
+    width: 500px;
+    background-color: peachpuff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .adoption-form {
     width: 400px;
     background: rgba(255, 127, 80, 0.301);
