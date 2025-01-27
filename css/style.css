@@ -30,7 +30,7 @@ body {
 .adoption-form p {
   font-weight: 500;
   margin-top: 15px;
-  display: block;
+  width: 100%;
 }
 .input-box input {
   width: 100%;
@@ -40,7 +40,6 @@ body {
   padding-left: 15px;
   font-size: 16px;
   border-bottom-width: 3px;
-  transition: all 0 3s ease;
 }
 
 #types {
